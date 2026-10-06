@@ -7,7 +7,9 @@ export default defineConfig({
   plugins: [
     tailwindcss(),
     sveltekit({
-      adapter: adapter()
+      adapter: adapter({
+        publish: 'build'
+      })
     })
   ]
 });
