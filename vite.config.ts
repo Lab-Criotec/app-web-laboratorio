@@ -1,6 +1,6 @@
 import { sveltekit } from '@sveltejs/kit/vite';
-import adapter from '@sveltejs/adapter-netlify'; // o '@sveltejs/adapter-auto'
 import tailwindcss from '@tailwindcss/vite';
+import adapter from '@sveltejs/adapter-netlify';
 import { defineConfig } from 'vite';
 
 export default defineConfig({
